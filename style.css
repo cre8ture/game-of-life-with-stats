@@ -1,0 +1,48 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#asciiContainer {
+  line-height: 1;
+  letter-spacing: 0;
+  white-space: nowrap;
+  font-family: "monospace";
+}
+
+
+#asciiContainer {
+    font-family: 'Courier New', monospace; /* Use a monospace font for even spacing */
+    white-space: pre; /* This ensures that whitespace is preserved and lines do not wrap */
+  }
+  
+  #asciiContainer span {
+    display: inline-block;
+    width: 8px; /* Set a fixed width for each character */
+  }
+
+  
+#explain{
+
+  padding: 10px;
+  max-width: 400px;
+  position: absolute;
+  display:grid;
+  background-color: burlywood;
+  grid-template-columns: 1fr;
+  bottom: 55px;
+  right: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border: solid 1px #000;
+  /* border-radius: 15%; */
+}
+
+#matrix {
+  font-size: 5px; 
+  word-spacing: 0.5px;  
+  line-height: 1em;  
+}
